@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(200deg,rgba(150, 150, 150, 0.489), white,rgba(150, 150, 150, 0.489),white,rgba(150, 150, 150, 0.489));
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    color: black;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);/* ESTO DA EFECTO SOMBRA*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 20px;
+    margin: 5px;
+    border: ridge 5px black;
+    text-align: center;
+    padding: 20px;
+}
+
+/* ESTO DA EFECTO SOMBRA
+
+{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+*/
+
+/*Esto da un efecto de Borde en el Texto
+
+ {
+    -webkit-text-stroke: 1px black;
+    color: white; /* Asegúrate de establecer el color del texto para que sea visible
+ }
+
+*/
+
+h2{
+    font-family:  Georgia, Times, 'Times New Roman', serif ;
+    letter-spacing: 1px; /* Ajusta el valor según tus preferencias */
+    text-shadow: 4px 4px 10px rgba(255, 0, 0, 0.5);/* ESTO DA EFECTO SOMBRA*/
+    color: red;
+}
+
+.features {
+    font-family: monospace;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.feature {
+    background: linear-gradient(180deg,white);
+    border: 3px solid #000000;
+    border-radius: 50px; /* esto hace que las puntas sean circulares*/
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 300px; /*tamaño de recuadro*/
+}
+
+.contact {
+    color: black;
+    text-shadow: 4px 4px 20px rgba(0, 0, 0, 0.5);/* ESTO DA EFECTO SOMBRA*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 20px;
+    margin: 5px;
+    border: ridge 5px black;
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+}
